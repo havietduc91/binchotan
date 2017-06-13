@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Kozuka-regular;
+    src: url(../fonts/KozGoPr6N-Regular.otf);
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	font-family: Kozuka-regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+}
+.left{float: left;}
+.right{float: right;}
+.header{
+	height: 250px;
+}
+.banner{
+	width: 100%;
+    background: url(../images/banner.png);
+    height: 250px;
+    position: absolute;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    height: 100%;
+    opacity: 0.6;
+}
+.language{
+	width: 170px;
+    background: #ffffff;
+    height: 45px;
+    opacity: 0.6;
+}
+.english{
+	width: 100%;
+    background: url(../images/english.png) no-repeat 35px 7px;
+    padding-left: 85px;
+    padding-top: 12px;
+}
+.header-left{
+	position: absolute;
+}
+.header-left h1{
+	font-size: 48px;
+	color: #fff;
+	margin-bottom: 5px;
+    margin-top: 50px;
+}
+.header-left h3{
+	font-size: 24px;
+	color: #fff;
+	margin-top: 0px;
+}
+.header-right{
+	background: #fff;
+    opacity: 0.8;
+    float: right;
+	text-align: center;
+	padding: 15px;
+	width: 500px;
+}
+.header-right h3{
+	font-size: 24px;
+	margin: 0;
+}
+.header-right h2{
+	color: #d70101;
+	font-size: 26px;
+	margin: 5px;
+}
+.header-right h5{
+	font-size: 16px;
+	margin: 0;
+}
+.header-right h4{
+	font-size: 18px;
+	margin: 5px;
+	color: #d70101;
+}
+.title{
+	width: 100%;
+	text-align:center;
+}
+.title h2{
+	font-size: 36px;
+	color: #d70101;
+}
+.product-detail img{
+	width: 100%;
+	height: 280px;
+	object-fit: cover;
+}
+.product-informations{
+	height: 290px;
+	width: 100%;
+	border: 1px solid #d5d5d5;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.product-informations h3{
+	font-size:18px;
+	color: #d70101;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 10px;
+	text-align:center;
+	margin-bottom: 0px;
+}
+.product-informations-body {
+	height: 175px;
+    overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+}
+.product-informations-body p{
+	font-size: 16px;
+    margin: 5px 0;
+}
+.product-informations-footer span p{
+	font-size: 16px;
+    float: left;
+    padding: 0;
+    margin: 10px 0;
+}
+.product-informations-footer span p strong{
+	font-size: 24px;
+}
+.body-content h3{
+	font-size: 24px;
+    text-align: center;
+	margin: 60px 0 30px 0;
+}
+.body-content h4{
+	font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    height: 24px;
+	margin-top: 10px;
+	font-weight: 100;
+}
+.body-footer{
+	width: 100%;
+	height: 250px;
+}
+.body-footer-background{
+	width: 100%;
+	background: url(../images/body-footer.png);
+	height: 250px;
+	text-align: center;
+}
+.body-footer-background p{
+	font-size: 26px;
+	margin: 5px;
+	-webkit-text-stroke: 1px #fff;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+.text{
+	margin-top: 30px;
+}
+.red{
+	color: #d70101;
+}
+.green{
+	color: #2da53e;
+}
+.blue{
+	color: #4260dd;
+}
+.orange{
+	color: #e2986c;
+}
+.yellow{
+	color: yellow;
+}
+footer{
+	width: 100%;
+	height: 265px;
+	background: #222222;
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+}
+footer .title p{
+	font-size: 24px;
+    margin: 20px auto 10px;
+}
+.footer-info{
+	border-top: 1px solid #fff;
+}
+.footer-info h5{
+	font-size: 26px;
+    margin: 5px;
+    padding-top: 10px;
+}
+.footer-info p{
+	font-size: 16px;
+	margin: 5px;
+}
+.footer-info span p{
+	float: left;
+	padding: 0;
+}
+.text-align-right{
+	text-align: right;
+	padding-right: 0;
+}
+.text-align-left{
+	text-align: left;
+	padding-left: 0;
+}
+.detail:nth-child(2){
+	padding-left: 0;
+}
+.detail:nth-child(4){
+	padding-right: 0;
+}
+.box-content{
+	height: 345px;
+	overflow: hidden;
+}
+.box-content:nth-child(3n+4) {
+	padding-right: 0;
+}
+.box-content:nth-child(3n+2) {
+	padding-left: 0;
+}
+.body-footer .col-md-12 {
+	padding: 0;
+}
+.product-detail video{
+	width: 100%;
+	height: 280px;
+}
+.padding-right-20{padding-right: 20px;}
+.padding-left-20{padding-left: 20px;}
+.position{
+	width: 100%;
+	float: left;
+}
+.clear-fix{
+	clear: both;
+}
