@@ -162,13 +162,7 @@ header{
 .body-footer-background p{
 	font-size: 26px;
 	margin: 5px;
-	-webkit-text-stroke: 1px #fff;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+        font-weight: 700;
 }
 .text{
 	margin-top: 30px;
@@ -187,6 +181,9 @@ header{
 }
 .yellow{
 	color: yellow;
+}
+.white{
+	color: white;
 }
 footer{
 	width: 100%;
