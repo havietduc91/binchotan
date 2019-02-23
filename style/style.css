@@ -144,7 +144,7 @@ header{
 .body-content h4{
 	font-size: 15px;
     text-align: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 24px;
 	margin-top: 10px;
 	font-weight: 100;
