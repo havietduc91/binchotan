@@ -2,6 +2,9 @@
     font-family: Kozuka-regular;
     src: url(../fonts/KozGoPr6N-Regular.otf);
 }
+@font-face {
+    font-family: Segoe UI,Arial,sans-serif!important;
+}
 body{
 	padding: 0;
 	margin: 0;
@@ -43,12 +46,11 @@ header{
     background: #ffffff;
     height: 45px;
     opacity: 0.6;
+    text-align: center;
 }
-.english{
-	width: 100%;
-    background: url(../images/english.png) no-repeat 35px 7px;
-    padding-left: 85px;
-    padding-top: 12px;
+.language img {
+    padding: 6px;
+    cursor: pointer;
 }
 .header-left{
 	position: absolute;
@@ -111,7 +113,7 @@ header{
 	margin-top: 10px;
 }
 .product-informations h3{
-	font-size:18px;
+	font-size:16px;
 	color: #d70101;
 	border-bottom: 1px solid #d5d5d5;
 	padding-bottom: 10px;
