@@ -24,19 +24,46 @@
 	.detail{
 		margin-bottom: 10px;
 	}
+    .body-footer-background p {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 990px) {
     .text {
-	    width: 55%;
+	    width: 69%;
 	    padding: 20px;
 	    font-weight: 700;
+    }
+    .body-footer-background .text,  .body-footer-background p {
+        font-size: 22px;
+    }
+    .header-left h1 {
+        font-size: 32px;
+    }
+    .header-left h3 {
+        font-size: 16px;
+    }
+    .header-right h2 {
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 768px) {
     .text {
-	    width: 55%;
+	    width: 69%;
 	    padding: 20px;
 	    font-weight: 700;
+    }
+    .body-footer-background .text,  .body-footer-background p {
+        font-size: 22px;
+    }
+    .header-left h1 {
+        font-size: 32px;
+    }
+    .header-left h3 {
+        font-size: 16px;
+    }
+    .header-right h2 {
+        font-size: 22px;
     }
 }
